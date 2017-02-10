@@ -14,7 +14,7 @@ public class Hello {
 	  public String sayPlainTextHello() {
 	    return "Hello Jersey";
 	  }
-
+	  
 	  // This method is called if XML is request
 	  @GET
 	  @Produces(MediaType.TEXT_XML)
